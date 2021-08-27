@@ -1,0 +1,67 @@
+[app/ui]
+version = 8.2.1
+modtime = 1627982473.874586000
+
+[app/launcher]
+version = 8.2.1
+modtime = 1627982473.875657000
+
+[views/dashboard_one]
+access = read : [ admin, power ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1627994299.137890000
+
+[views/dashboard_two]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1627983028.549700000
+
+[views/dashboard_three]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1627994573.580333000
+
+[views/dashboard_four]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1627996587.316957000
+
+[nav/default]
+version = 8.2.1
+modtime = 1627995526.778308000
+
+[views/method_dashboard]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1628079628.958277000
+
+[views/host_dasboard]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1628079735.871003000
+
+[views/total_dashboard]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1628079803.533343000
+
+[macros/APACHE]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 8.2.1
+modtime = 1628674046.237307000

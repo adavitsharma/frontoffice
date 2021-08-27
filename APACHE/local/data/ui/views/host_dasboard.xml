@@ -1,0 +1,23 @@
+<dashboard>
+  <label>Host_Dasboard</label>
+  <row>
+    <panel>
+      <title>Host</title>
+      <table>
+        <search>
+          <query>index="_internal" sourcetype="splunk_web_access" | stats count by host</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>

@@ -1,0 +1,11 @@
+<nav search_view="search" color="#FF0000">  
+  <view name="dashboard_one" default='true' />
+  <view name="dashboard_two" />
+  
+  <collection label="List_of_dashboard">
+  
+  <view name="dashboard_three" />
+  <view name="dashboard_four" />
+  
+  </collection>
+</nav>
